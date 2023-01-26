@@ -1,0 +1,40 @@
+.background {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 20px;
+    background: #E1E1E1;
+    height: 100vh;
+}
+
+.about {
+    width: 50%;
+    padding: 5%;
+}
+
+.about > h3 {
+    margin: 0;
+    padding: 2%;
+}
+
+.about > h4 {
+    margin: 0;
+    padding: 2%;
+}
+
+.about > p {
+    margin: 0;
+    padding: 2%;
+    padding-block: 6%;
+    margin-right: 10%;
+}
+
+.study {
+    width: 50%;
+    padding: 5%;
+}
+
+.habilidades > a {
+    padding: 25px;
+    text-decoration: none;
+}

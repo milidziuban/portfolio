@@ -1,0 +1,71 @@
+.firstPage {
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.backG {
+    background-image: url('Desktop6.jpg');
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.izqPage {
+    width: 100%;
+    padding-inline: 100px;
+}
+
+.derPage {
+    width: 100%;
+    padding-inline: 100px;
+}
+
+.izqPage>p {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.izqPage > h4 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.imagecv {
+    border-radius: 270.5px;
+    padding: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.buttons > a {
+   padding: 6px;
+}
+
+.buttonLanding {
+    width: 260px;
+    height: 42px;
+    background-color: black;
+    border-radius: 40px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+
+    margin: 20px;
+}

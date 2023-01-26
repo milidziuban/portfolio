@@ -1,0 +1,13 @@
+.fondo {
+    padding: 20px;
+    background: #E1E1E1;
+    height: 150vh;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 26px;
+    padding-block: 12px;
+
+    background-color: black;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text > a {
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.title {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
