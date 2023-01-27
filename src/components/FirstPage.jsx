@@ -9,6 +9,14 @@ import './FirstPage.css'
 import imagecv from './imagecv.jpeg'
 
 export default function FirstPage() {
+
+    function irASeccion() {
+        // Obtener la sección de destino utilizando el ID
+        const seccionDestino = document.getElementById("seccion-destino");
+        // Desplazarse a la sección de destino
+        seccionDestino.scrollIntoView({ behavior: 'smooth' });
+    }
+
     return (
         <div className="backG">
             <div className="firstPage">
@@ -24,14 +32,14 @@ export default function FirstPage() {
                     </h4>
                     <div className="buttons">
                         <a href="https://www.linkedin.com/in/milagros-dziuban-dise%C3%B1adora/" > <LinkedInIcon fontSize='large' /> </a>
-                        <a href="https://github.com/milidziuban"> <GitHubIcon fontSize='large'/> </a>
+                        <a href="https://github.com/milidziuban"> <GitHubIcon fontSize='large' /> </a>
                     </div>
                 </div>
                 <div className="derPage">
                     <img className='imagecv' src={imagecv} alt='not found' width='400px'></img>
                 </div>
             </div>
-            <button className="buttonLanding"> VER MÁS </button>
+            <button className="buttonLanding" onClick={() => irASeccion()}> VER MÁS </button>
         </div>
     )
 }

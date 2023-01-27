@@ -33,7 +33,6 @@ export default function Desing() {
                     </div>
                 </div>
             </div>
-            <p> Pre-visualización de prototipo Tuenti </p>
             <div className="frame">
                 <iframe
                     title="ux/ui"
