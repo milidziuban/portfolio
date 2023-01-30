@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    padding: 20px;
+    padding-inline: 20px;
     background: #E1E1E1;
     height: 100vh;
 }
 
 .about {
     width: 50%;
-    padding: 5%;
+    padding-inline: 5%;
 }
 
 .about > h3 {
@@ -25,13 +25,19 @@
 .about > p {
     margin: 0;
     padding: 2%;
-    padding-block: 6%;
-    margin-right: 10%;
+    padding-block: 4%;
+    margin-right: 6%;
+    font-size: 15px;
 }
 
 .study {
     width: 50%;
     padding: 5%;
+}
+
+.study > p {
+    margin: 6px;
+    font-size: 15px;
 }
 
 .habilidades > a {
