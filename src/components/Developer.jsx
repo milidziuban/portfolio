@@ -1,12 +1,15 @@
 import React from "react";
 import './Developer.css';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import Rectangle from './imagenes/Rectangle.png'
+
 
 
 export default function Developer() {
     return (
         <div className="back">
             <div className="desingItem">
+            <img src={Rectangle} alt='desing' width='140px'></img>
                 <h3> FULL STACK </h3>
                 <div className="webproyect">
                     <div>

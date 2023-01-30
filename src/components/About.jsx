@@ -8,11 +8,13 @@ import Button from '@mui/material/Button';
 import SchoolIcon from '@mui/icons-material/School';
 import FeedIcon from '@mui/icons-material/Feed';
 
+
 export default function About() {
     return (
         <div className="background">
             <div className="about">
-                <h3 className="titleAbout"> <FeedIcon/> <p> SOBRE MÍ </p></h3>
+
+                <h3 className="titleAbout"> <FeedIcon /> <p> SOBRE MÍ </p></h3>
                 <p> Finalicé el BootCamp de Desarrollo Web Fullstack en SOYHENRY y sigo aprendiendo de forma autodidacta. Tambien soy Diseñadora UX/UI y estudiante avanzada en Licenciatura en Diseño Industrial en la cual estoy realizando el Trabajo final de Tesina. </p>
 
                 <h4> Tecnologías y herramientas </h4>
@@ -45,7 +47,8 @@ export default function About() {
                 </Stack>
             </div>
             <div className="study">
-                <h3 className="titleAbout"> <SchoolIcon/> <p> ESTUDIOS </p></h3>
+
+                <h3 className="titleAbout"> <SchoolIcon /> <p> ESTUDIOS </p></h3>
                 <h4> Universidad: </h4>
                 <p>
                     - Licenciatura en Diseño Industrial (2017 - Actualidad) Universidad Nacional del Litoral, Facultad de Arquitectura, Diseño y Urbanismo.
