@@ -28,11 +28,11 @@ export default function FirstPage() {
                         Diseñadora UX/UI y Full Stack Developer
                     </p>
                     <h4>
-                        Soy Diseñadora UX/UI, desarrolladora FrontEnd y BackEnd y estudiante avanzada en Licenciatura en Diseño Industrial en la cual estoy realizando el Trabajo final de Tesina.
+                        Actualmente soy Diseñadora UX/UI, desarrolladora FullStack y estudiante avanzada en la Licenciatura en Diseño Industrial en la cual estoy realizando el Trabajo final de Tesina.
                     </h4>
                     <div className="buttons">
-                        <a href="https://www.linkedin.com/in/milagros-dziuban-dise%C3%B1adora/" > <LinkedInIcon fontSize='large' /> </a>
                         <a href="https://github.com/milidziuban"> <GitHubIcon fontSize='large' /> </a>
+                        <a href="https://www.linkedin.com/in/milagros-dziuban-dise%C3%B1adora/" > <LinkedInIcon fontSize='large' /> </a>
                     </div>
                 </div>
                 <div className="derPage">

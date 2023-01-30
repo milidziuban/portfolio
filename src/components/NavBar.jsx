@@ -3,15 +3,37 @@ import { Link } from 'react-router-dom';
 import './NavBar.css'
 
 export default function NavBar() {
+
+    function irASeccion() {
+        // Obtener la sección de destino utilizando el ID
+        const seccionDestino = document.getElementById("seccion-destino");
+        // Desplazarse a la sección de destino
+        seccionDestino.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function irADesing() {
+        // Obtener la sección de destino utilizando el ID
+        const seccionDestino = document.getElementById("seccion-desing");
+        // Desplazarse a la sección de destino
+        seccionDestino.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function irADevelop() {
+        // Obtener la sección de destino utilizando el ID
+        const seccionDestino = document.getElementById("seccion-develop");
+        // Desplazarse a la sección de destino
+        seccionDestino.scrollIntoView({ behavior: 'smooth' });
+    }
+
     return (
         <div className="navBar">
             <Link to="/">
-                <h2 className="title"> PORTFOLIO </h2>
+                <p className="title"> MI PORTFOLIO </p>
             </Link>
             <div className="text">
-                <Link to="/about">SOBRE MI</Link>
-                <Link to="/desing">DISEÑO</Link>
-                <Link to="/developer">FULL STACK</Link>
+                <button onClick={() => irASeccion()}>SOBRE MI</button>
+                <button onClick={() => irADesing()}>DISEÑO</button>
+                <button onClick={() => irADevelop()} to="/developer">FULL STACK</button>
             </div>
         </div>
     )

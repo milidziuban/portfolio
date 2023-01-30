@@ -22,19 +22,26 @@
     flex-direction: row;
 }
 
-.text>a {
+.text>button {
     color: white;
+    background-color: transparent;
     padding: 16px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 200;
     text-decoration: none;
 }
 
+.text>button:hover {
+    text-decoration: underline;
+    background-color: rgb(29, 29, 29);
+    border-radius: 8px;
+}
+
 .title {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 @media (max-width: 420px) {
