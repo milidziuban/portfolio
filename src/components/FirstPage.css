@@ -18,12 +18,11 @@
 }
 
 .izqPage {
-    width: 100%;
+    width: 50%;
     padding-inline: 100px;
 }
 
 .derPage {
-    width: 100%;
     padding-inline: 100px;
 }
 
