@@ -4,17 +4,61 @@
     align-items: center;
 }
 
-.backG {
-    background-image: url('Desktop6.jpg');
+.navBarInicio {
+    display: flex;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: +1;
+
+    width: 100%;
+}
+
+.background {
+    animation: background-change 3s linear infinite;
+    background-position: center;
     background-size: cover;
+    background-color: black;
 
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 43px;
     width: 100%;
     height: 100vh;
+
+    z-index: +2;
+}
+
+@keyframes background-change {
+    0% {
+        background-image: url('./imagenes/Desktop1.png');
+    }
+
+    20% {
+        background-image: url('./imagenes/Desktop2.png');
+    }
+
+    40% {
+        background-image: url('./imagenes/Desktop3.png');
+    }
+
+    60% {
+        background-image: url('./imagenes/Desktop4.png');
+    }
+
+    80% {
+        background-image: url('./imagenes/Desktop4.png');
+    }
+    100% {
+        background-image: url('./imagenes/Desktop2.png');
+    }
 }
 
 .izqPage {
@@ -27,6 +71,7 @@
 }
 
 .izqPage>p {
+    color: white;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 22px;
@@ -34,17 +79,13 @@
     padding: 10px;
 }
 
-.izqPage > h4 {
+.izqPage>h4 {
+    color: white;
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 16px;
     margin: 0px;
     padding: 10px;
-}
-
-.imagecv {
-    border-radius: 270.5px;
-    padding: 30px;
 }
 
 .buttons {
@@ -53,24 +94,23 @@
     margin: 0;
 }
 
-.buttons > a {
-   padding: 6px;
-   color: black;
+.buttons>a {
+    padding: 6px;
+    color: white;
 }
 
 .buttonLanding {
     width: 260px;
     height: 42px;
-    background-color: black;
-    border-radius: 40px;
+    background-color: #6C061F;
+    border: none;
+    border-radius: 15px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     color: #FFFFFF;
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 20px;
 }
 
@@ -94,9 +134,29 @@
         align-items: center;
         flex-direction: column;
     }
-    
+
+    .navBarInicio {
+        position: absolute;
+
+
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        z-index: +1;
+
+        width: 100%;
+    }
+
+    .navBarInicio>p {
+        margin: 0;
+    }
+
     .backG {
+        position: relative;
         background: #E1E1E1;
+        z-index: +2;
+        background-color: black;
+
     }
 
     .imagecv {
@@ -110,12 +170,12 @@
         padding-inline: 0px;
         padding-top: 50px;
     }
-    
+
     .derPage {
         width: 245px;
         padding-inline: 0px;
     }
-    
+
     .izqPage>p {
         font-family: 'Roboto';
         font-weight: 500;
@@ -123,8 +183,8 @@
         margin: 0px;
         padding: 8px;
     }
-    
-    .izqPage > h4 {
+
+    .izqPage>h4 {
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 13px;
@@ -137,23 +197,23 @@
         flex-direction: row;
         margin: 0;
     }
-    
-    .buttons > a {
-       padding: 2px;
-    }    
+
+    .buttons>a {
+        padding: 2px;
+    }
 
     .buttonLanding {
         width: 180px;
         height: 38px;
         background-color: black;
         border-radius: 20px;
-    
+
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 10px;
         color: #FFFFFF;
-    
+
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         margin: 0;
     }

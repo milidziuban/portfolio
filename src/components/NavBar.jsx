@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import './NavBar.css'
+import './NavBar.css';
+import logo from './imagenes/logomili.png'
 
 export default function NavBar() {
 
@@ -28,12 +29,13 @@ export default function NavBar() {
     return (
         <div className="navBar">
             <Link to="/">
-                <p className="title"> MI PORTFOLIO </p>
+                <p className="title">  <img src={logo} width='65px' alt="logo"></img> </p>
             </Link>
             <div className="text">
-                <button onClick={() => irASeccion()}>SOBRE MI</button>
-                <button onClick={() => irADesing()}>DISEÑO</button>
-                <button onClick={() => irADevelop()} to="/developer">FULL STACK</button>
+                <a onClick={() => irASeccion()}>SOBRE MÍ</a>
+                <a onClick={() => irADesing()}>DISEÑOS</a>
+                <a onClick={() => irADevelop()} to="/developer">DESARROLLOS</a>
+                <button className="buttonCV"> DESCARGAR CV </button>
             </div>
         </div>
     )

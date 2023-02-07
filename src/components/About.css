@@ -1,9 +1,11 @@
-.background {
+.background1 {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     padding-inline: 20px;
-    background: #E1E1E1;
+    background-image: url('./imagenes/fondo1.png');
+    background-size: cover;
+
     height: 90vh;
 }
 
@@ -21,6 +23,7 @@
 .about > h4 {
     margin: 0;
     padding: 2%;
+    color: white;
 }
 
 .about > p {
@@ -31,11 +34,13 @@
     padding-block: 4%;
     margin-right: 6%;
     font-size: 15px;
+    color: white;
 }
 
 .study {
     width: 40%;
     padding: 5%;
+    color: white;
 }
 
 .study > p {
@@ -43,6 +48,7 @@
     font-size: 15px;
     font-family: 'Roboto';
     font-weight: 300;
+    color: white;
 }
 
 .habilidades > a {
@@ -55,11 +61,13 @@
     align-items: center;
     font-family: 'Roboto';
     font-size: 18px;
+    color: white;
 }
 
 .titleAbout > p {
     margin: 0;
     padding-inline: 10px;
+    color: white;
 }
 
 @media (max-width: 420px) {

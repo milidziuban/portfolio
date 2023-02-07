@@ -11,7 +11,7 @@ import FeedIcon from '@mui/icons-material/Feed';
 
 export default function About() {
     return (
-        <div className="background">
+        <div className="background1">
             <div className="about">
 
                 <h3 className="titleAbout"> <FeedIcon /> <p> SOBRE MÍ </p></h3>
