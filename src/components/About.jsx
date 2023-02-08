@@ -5,19 +5,66 @@ import CoderBasico from './imagenes/CoderBasico.png'
 import CV from './imagenes/CV.pdf'
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
-import SchoolIcon from '@mui/icons-material/School';
-import FeedIcon from '@mui/icons-material/Feed';
+import fotocv from './imagenes/fotocv.png'
 
 
 export default function About() {
     return (
         <div className="background1">
-            <div className="about">
+                <h1 className="sombra"> SOBRE MÍ </h1>
+                 <div className="img">
+                    <img src={fotocv} width='460px'></img>
+                </div>
+                <p className="titleSobreMi"> SOBRE MÍ </p>
+                <div className="about">
+                    <h3 className="titleAbout">
 
-                <h3 className="titleAbout"> <FeedIcon /> <p> SOBRE MÍ </p></h3>
-                <p> Finalicé el BootCamp de Desarrollo Web Fullstack en SOYHENRY y sigo aprendiendo de forma autodidacta. Tambien soy Diseñadora UX/UI y estudiante avanzada en Licenciatura en Diseño Industrial en la cual estoy realizando el Trabajo final de Tesina. </p>
+                        <h4> Universidad: </h4>
+                        <p>
+                            - Licenciatura en Diseño Industrial (2017 - Actualidad) Universidad Nacional del Litoral, Facultad de Arquitectura, Diseño y Urbanismo.
+                        </p>
+                        <h4>  Cursos: </h4>
+                        <p>
+                            - Diseño UX/UI (2022  Marzo - Junio) CoderHouse
+                        </p>
+                        <Stack spacing={2} direction="row">
+                            <Button
+                                href={CoderBasico}
+                                size="small"
+                                variant="text">Ver certificado</Button>
+                        </Stack>
+                        <p>
+                            - Diseño UX/UI Avanzado (2022 - Actualidad) CoderHouse
+                        </p>
+                        <Stack spacing={2} direction="row">
+                            <Button
+                                href={CoderAvanzado}
+                                size="small"
+                                variant="text">Ver certificado</Button>
+                        </Stack>
+                        <p>
+                            - Introducción a HTML, CSS y JavaScript (2022 Junio- Agosto) HackAcademy
+                        </p>
+                        <Stack spacing={2} direction="row">
+                            <Button
+                                href='https://plataforma.ha.dev/certificates/l1gnabcpct'
+                                size="small"
+                                variant="text">Ver certificado</Button>
+                        </Stack>
+                        <p>
+                            - Full Stack Developer (2022 Septiembre - 2023 Enero) Bootcamp SoyHenry
+                        </p>
+                        <Stack spacing={2} direction="row">
+                            <Button
+                                href="https://certificates.soyhenry.com/cert?id=b17f00b7-9529-49d2-9088-9da174a8d261"
+                                size="small"
+                                variant="text">Ver certificado</Button>
+                        </Stack>
 
-                <h4> Tecnologías y herramientas </h4>
+                    </h3>
+
+
+                    {/* <h4> Tecnologías y herramientas </h4>
                 <p align="left" className="habilidades">
                     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" /> </a>
 
@@ -38,59 +85,11 @@ export default function About() {
                     <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" /> </a>
 
                     <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40" /> </a>
-                </p>
-                <Stack spacing={2} direction="row">
-                    <Button
-                        href={CV}
-                        size="small"
-                        variant="text"> Descargar CV </Button>
-                </Stack>
-            </div>
-            <div className="study">
+                </p> */}
 
-                <h3 className="titleAbout"> <SchoolIcon /> <p> ESTUDIOS </p></h3>
-                <h4> Universidad: </h4>
-                <p>
-                    - Licenciatura en Diseño Industrial (2017 - Actualidad) Universidad Nacional del Litoral, Facultad de Arquitectura, Diseño y Urbanismo.
-                </p>
-                <h4>  Cursos: </h4>
-                <p>
-                    - Diseño UX/UI (2022  Marzo - Junio) CoderHouse
-                </p>
-                <Stack spacing={2} direction="row">
-                    <Button
-                        href={CoderBasico}
-                        size="small"
-                        variant="text">Ver certificado</Button>
-                </Stack>
-                <p>
-                    - Diseño UX/UI Avanzado (2022 - Actualidad) CoderHouse
-                </p>
-                <Stack spacing={2} direction="row">
-                    <Button
-                        href={CoderAvanzado}
-                        size="small"
-                        variant="text">Ver certificado</Button>
-                </Stack>
-                <p>
-                    - Introducción a HTML, CSS y JavaScript (2022 Junio- Agosto) HackAcademy
-                </p>
-                <Stack spacing={2} direction="row">
-                    <Button
-                        href='https://plataforma.ha.dev/certificates/l1gnabcpct'
-                        size="small"
-                        variant="text">Ver certificado</Button>
-                </Stack>
-                <p>
-                    - Full Stack Developer (2022 Septiembre - 2023 Enero) Bootcamp SoyHenry
-                </p>
-                <Stack spacing={2} direction="row">
-                    <Button
-                        href="https://certificates.soyhenry.com/cert?id=b17f00b7-9529-49d2-9088-9da174a8d261"
-                        size="small"
-                        variant="text">Ver certificado</Button>
-                </Stack>
-            </div>
+    
+                </div>
+           
         </div>
     )
 }

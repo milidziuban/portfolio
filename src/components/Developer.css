@@ -1,6 +1,7 @@
 .back {
     padding: 20px;
-    background-image: url('./imagenes/fondo3.png');
+    background-color: #0D0D0D;
+
     background-size: cover;
 
     height: 80vh;

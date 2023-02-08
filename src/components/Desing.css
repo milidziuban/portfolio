@@ -1,6 +1,6 @@
 .backg {
     padding: 20px;
-    background-image: url('./imagenes/fondo2.png');
+    background-color: #0D0D0D;
     background-size: cover;
 
     height: 140vh;
@@ -22,6 +22,7 @@
 
 .desingItem>h3 {
     font-family: 'Roboto';
+    color: white;
 }
 
 .proyects {
