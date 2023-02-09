@@ -13,7 +13,7 @@ export default function About() {
         <div className="background1">
                 <h1 className="sombra"> SOBRE MÍ </h1>
                  <div className="img">
-                    <img src={fotocv} width='40%'></img>
+                    <img src={fotocv} width='35%'></img>
                 </div>
                 <p className="titleSobreMi"> SOBRE MÍ </p>
                 <div className="about">
