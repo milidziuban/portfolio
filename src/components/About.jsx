@@ -13,7 +13,7 @@ export default function About() {
         <div className="background1">
                 <h1 className="sombra"> SOBRE MÍ </h1>
                  <div className="img">
-                    <img src={fotocv} width='460px'></img>
+                    <img src={fotocv} width='40%'></img>
                 </div>
                 <p className="titleSobreMi"> SOBRE MÍ </p>
                 <div className="about">
@@ -27,11 +27,12 @@ export default function About() {
                         <p>
                             - Diseño UX/UI (2022  Marzo - Junio) CoderHouse
                         </p>
-                        <Stack spacing={2} direction="row">
+                        <Stack spacing={2} direction="row" >
                             <Button
                                 href={CoderBasico}
                                 size="small"
-                                variant="text">Ver certificado</Button>
+                                variant="text"
+                                color="secondary">Ver certificado</Button>
                         </Stack>
                         <p>
                             - Diseño UX/UI Avanzado (2022 - Actualidad) CoderHouse
@@ -40,7 +41,11 @@ export default function About() {
                             <Button
                                 href={CoderAvanzado}
                                 size="small"
-                                variant="text">Ver certificado</Button>
+                                variant="text"
+                                color="secondary"
+                                >Ver certificado
+                                </Button>
+                                
                         </Stack>
                         <p>
                             - Introducción a HTML, CSS y JavaScript (2022 Junio- Agosto) HackAcademy
@@ -49,7 +54,8 @@ export default function About() {
                             <Button
                                 href='https://plataforma.ha.dev/certificates/l1gnabcpct'
                                 size="small"
-                                variant="text">Ver certificado</Button>
+                                variant="text"
+                                color="secondary">Ver certificado</Button>
                         </Stack>
                         <p>
                             - Full Stack Developer (2022 Septiembre - 2023 Enero) Bootcamp SoyHenry
@@ -58,7 +64,8 @@ export default function About() {
                             <Button
                                 href="https://certificates.soyhenry.com/cert?id=b17f00b7-9529-49d2-9088-9da174a8d261"
                                 size="small"
-                                variant="text">Ver certificado</Button>
+                                variant="text"
+                                color="secondary">Ver certificado</Button>
                         </Stack>
 
                     </h3>
