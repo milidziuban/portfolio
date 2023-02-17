@@ -9,6 +9,7 @@ import './FirstPage.css'
 import { Link } from 'react-router-dom';
 import './NavBar.css';
 import logo from './imagenes/logomili.png'
+import CV from './imagenes/CV.pdf'
 
 
 export default function FirstPage() {
@@ -45,7 +46,7 @@ export default function FirstPage() {
                     <a onClick={() => irASeccion()}>SOBRE MÍ</a>
                     <a onClick={() => irADesing()}>DISEÑOS</a>
                     <a onClick={() => irADevelop()} to="/developer">DESARROLLOS</a>
-                    <button className="buttonCV"> DESCARGAR CV </button>
+                    <a href={CV}> <button className="buttonCV"> DESCARGAR CV </button> </a>
 
                 </div>
             </div>
