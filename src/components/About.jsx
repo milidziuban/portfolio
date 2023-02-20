@@ -35,7 +35,7 @@ export default function About() {
                                 color="secondary">Ver certificado</Button>
                         </Stack>
                         <p>
-                            - Diseño UX/UI Avanzado (2022 - Actualidad) CoderHouse
+                            - Diseño UX/UI Avanzado (2022 Agosto - Noviembre) CoderHouse
                         </p>
                         <Stack spacing={2} direction="row">
                             <Button
